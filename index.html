@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | NFT preview card component</title>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300&display=swap" rel="stylesheet">
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    
+    body{
+      background-color:hsl(217, 54%, 11%);
+      font-family: 'Outfit', sans-serif;
+      
+    }
+
+    
+  </style>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="flex flex-col items-center mt-20">
+
+  <div class="flex items-center justify-center flex-col h-180 w-60 bg-[#14253d] px-5 py-4 rounded-lg
+  shadow-black/50 shadow-lg">
+    <div class="py-3">
+      <img src="./images/image-equilibrium.jpg" class="h-45 w-45 rounded-lg" alt="">
+    </div>
+    <div>
+      <div class="text-white p-3">
+        <h2 class="text-sm font-[600]">Equilibrium #3429</h2>
+        <p class="text-sm text-[#8bacda] pt-2 font-thin">Our Equilibrium collection promotes balance and calm</p>
+      </div>
+      <div class="flex items-center justify-between text-xs">
+        <div class="flex items-center justify-start mr-8">
+          <img src="./images/icon-ethereum.svg" 
+          class=" mr-1" alt="">
+          <p class="text-cyan-500">
+            0.041 ETH
+          </p>
+        </div>
+        <div class="flex items-center ml-5">
+          <img src="./images/icon-clock.svg" class="mr-1" alt="">
+          <p class="text-[#8bacda]">3 days left</p>
+        </div>
+      </div>
+
+    </div>
+    
+    <hr class="w-full my-3 text-[#2f415b]">
+    
+    
+    <div class="flex items-center justify-between">
+      <img src="./images/image-avatar.png" class="h-5 w-5 border border-white rounded-full mr-3" alt="">
+      <p class="text-xs text-white font-thin">Creation of
+       &nbsp;  <span class="text-white font-[700]">
+          Jules Wyvern
+        </span> </p>
+    </div>
+  </div>
+
+  <div class="attribution absolute bottom-0">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#" class="text-red-500">Aditya Vernekar</a>.
+  </div>
+</body>
+</html>
